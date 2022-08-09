@@ -6,14 +6,14 @@ NOTE: the $ sign means the line is a linux console command
 go to your zephyr folder
 $ cd ~/zephyrproject/zephyr
 
-clone the repo
+clone the repo:
 $ git clone https://github.com/BHahn42618/zephyr_temp_rf_demo.git
 
-go to the repo
+go to the repo:
 $ cd zephyr_temp_rf_demo
 
-build the application
+build the application:
 $ west build -b reel_board_v2
 
-flash the application to the board
+flash the application to the board:
 $ west flash
